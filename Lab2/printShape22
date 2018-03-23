@@ -1,0 +1,10 @@
+function checkIsProperNumber(val) {
+    if (val === undefined || typeof val !== "number") {
+        throw `${val} is not a number`;
+    }
+}
+function isTwoOrMore(num){
+    if(num < 2){
+        throw "Number should be greater than or equal to 2 ";
+    }
+
